@@ -1,16 +1,16 @@
 # 📋 Questionnaire Analysis System
 
 ## 📑 Table of Contents
-1. [📝 Introduction](#introduction)
-2. [🔧 Methodology](#methodology)
-3. [📊 Results](#results)
-4. [💬 Comments](#comments)
-5. [🔚 Conclusion](#conclusion)
-6. [📚 References](#references)
+1. [• Introduction :](#introduction)
+2. [• Methodology :](#methodology)
+3. [• Results :](#results)
+4. [• Comments :](#comments)
+5. [• Conclusion :](#conclusion)
+6. [• References :] (#references)
 
 ---
 
-## ▶  Introduction
+## `✦ Introduction`
 
 In a digital world, simplifying data collection is essential. This **Questionnaire Analysis System** automates the process of scanning, detecting, and evaluating answers from filled-out questionnaires. 
 
@@ -18,7 +18,7 @@ Once the questionnaires are scanned and uploaded, the system automatically detec
 
 ---
 
-## ▶  Methodology
+## `✦ Methodology`
 
 ### 1. Designing the Questionnaire
 A multiple-choice questionnaire template was created. Users manually fill out the form by marking answers with a pen.
@@ -44,7 +44,7 @@ The answers are displayed in a table, showing which answers were correct, along 
 
 ---
 
-## ▶  Results
+## `✦ Results`
 
 The system performs efficiently in detecting marked answers and automating grading. Here's how it performed in different test cases:
 
@@ -62,7 +62,7 @@ The system performs efficiently in detecting marked answers and automating gradi
 
 ---
 
-## ▶  Comments
+## `✦ Comments`
 
 - **Pre-processing**: Improves image quality for better answer detection.
 - **Contour Detection**: Identifies marked answers by detecting contours.
@@ -73,13 +73,13 @@ The system performs efficiently in detecting marked answers and automating gradi
 
 ---
 
-## ▶  Conclusion
+## `✦ Conclusion`
 
 The **Questionnaire Analysis System** automates the process of detecting, extracting, and grading answers from scanned questionnaires. By using image processing techniques like OCR and edge detection, it improves accuracy and reduces manual effort, making it an efficient tool for educational assessments and surveys.
 
 ---
 
-## ▶  References
+## `✦ References`
 
 - [Python Code for OMR Answer Sheet Evaluation Using Deep Learning](#)
 - [Optical Mark Recognition (OMR)](#)
