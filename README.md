@@ -35,9 +35,24 @@ Once filled out, the form is scanned and saved as an image. The system preproces
 
 #### Preprocessing Steps:
 - **Grayscale**: Simplifies the image.
+<p align="center">
+  <img src="https://github.com/Salma-Talat-Shaheen/AI-Powered-Answer-Sheet-Grading-and-Question-Extraction-Using-OCR-and-OMR/blob/main/ProcessImages/GrayScale.png" alt="Alt Text" width="300"/>
+</p>
+
 - **Blurring**: Reduces noise.
+<p align="center">
+  <img src="https://github.com/Salma-Talat-Shaheen/AI-Powered-Answer-Sheet-Grading-and-Question-Extraction-Using-OCR-and-OMR/blob/main/ProcessImages/Blurring.png" alt="Alt Text" width="300"/>
+</p>
+
 - **Edge Detection**: Highlights the marked answers.
+<p align="center">
+  <img src="https://github.com/Salma-Talat-Shaheen/AI-Powered-Answer-Sheet-Grading-and-Question-Extraction-Using-OCR-and-OMR/blob/main/ProcessImages/Edge%20Detection.png" alt="Alt Text" width="300"/>
+</p>
+
 - **Orientation Correction**: Fixes any tilt or skew.
+<p align="center">
+  <img src="https://github.com/Salma-Talat-Shaheen/AI-Powered-Answer-Sheet-Grading-and-Question-Extraction-Using-OCR-and-OMR/blob/main/ProcessImages/Orientation%20Correction.png" alt="Alt Text" width="300"/>
+</p>
 
 #### 3.  Extracting Questions & Answers
 - **OCR** (Optical Character Recognition) extracts text from the scanned image using `pytesseract`.
@@ -45,6 +60,26 @@ Once filled out, the form is scanned and saved as an image. The system preproces
 
 #### 4.  Answer Detection
 Contours are detected to identify marked answers, then the answers are compared to a predefined key to calculate scores.
+- ####  Contours Detected
+<p align="center">
+  <img src="https://github.com/Salma-Talat-Shaheen/AI-Powered-Answer-Sheet-Grading-and-Question-Extraction-Using-OCR-and-OMR/blob/main/ProcessImages/Contours%20Detected.png" alt="Alt Text" width="200"/>
+</p>
+
+- ####  Thresholded Image
+<p align="center">
+  <img src="https://github.com/Salma-Talat-Shaheen/AI-Powered-Answer-Sheet-Grading-and-Question-Extraction-Using-OCR-and-OMR/blob/main/ProcessImages/Thresholded%20Image.png" alt="Alt Text" width="200"/>
+</p>
+
+- ####  Question Contours
+<p align="center">
+  <img src="https://github.com/Salma-Talat-Shaheen/AI-Powered-Answer-Sheet-Grading-and-Question-Extraction-Using-OCR-and-OMR/blob/main/ProcessImages/Question%20Contours.png" alt="Alt Text" width="200"/>
+</p>
+
+- ####  Ensure Correct Sorting (Final result)
+<p align="center">
+  <img src="https://github.com/Salma-Talat-Shaheen/AI-Powered-Answer-Sheet-Grading-and-Question-Extraction-Using-OCR-and-OMR/blob/main/ProcessImages/Ensure%20Correct%20Sorting.png" alt="Alt Text" width="200"/>
+</p>
+
 
 #### 5.  Displaying Results
 The answers are displayed in a table, showing which answers were correct, along with a score and feedback (e.g., "Great job!" or "Needs improvement").
