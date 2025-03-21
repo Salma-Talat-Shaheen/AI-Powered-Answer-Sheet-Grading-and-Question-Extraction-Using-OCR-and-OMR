@@ -5,12 +5,12 @@
 
 
 ##  `► Table of Contents ◄`
-1. [Introduction :](#introduction)
-2. [Methodology :](#methodology)
-3. [Results :](#results)
-4. [Comments :](#comments)
-5. [Conclusion :](#conclusion)
-6. [References :](#references)
+1. Introduction :
+2. Methodology :
+3. Results :
+4. Comments :
+5. Conclusion :
+6. References :
 
 ---
 
@@ -26,6 +26,9 @@ Once the questionnaires are scanned and uploaded, the system automatically detec
 
 #### 1. Designing the Questionnaire
 A multiple-choice questionnaire template was created. Users manually fill out the form by marking answers with a pen.
+<p align="center">
+  <img src="https://github.com/Salma-Talat-Shaheen/AI-Powered-Answer-Sheet-Grading-and-Question-Extraction-Using-OCR-and-OMR/blob/main/Images_Smaples/Questiones.png" alt="Alt Text" width="300"/>
+</p>
 
 #### 2.  Scanning & Preprocessing the Image
 Once filled out, the form is scanned and saved as an image. The system preprocesses the image to enhance quality for better detection.
