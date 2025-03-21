@@ -1,5 +1,9 @@
 # Questionnaire Analysis System
-![Test Case 1 Output](https://pyimagesearch.com/wp-content/uploads/2016/10/omr_result_05.jpg)
+<p align="center">
+  <img src="https://github.com/Salma-Talat-Shaheen/AI-Powered-Answer-Sheet-Grading-and-Question-Extraction-Using-OCR-and-OMR/blob/main/Images_Smaples/InputToOutput.png?raw=true" alt="Alt Text" width="600"/>
+</p>
+
+
 ##  `► Table of Contents ◄`
 1. [Introduction :](#introduction)
 2. [Methodology :](#methodology)
@@ -50,15 +54,22 @@ The system performs efficiently in detecting marked answers and automating gradi
 
 **`Test Case 1:`**  
 ✔️ The system detected all answers correctly, resulting in a perfect score.  
- **Output:** ![Test Case 1 Output](output_image_1.jpg)
+ **Output:** <p align="center">
+  <img src="https://github.com/Salma-Talat-Shaheen/AI-Powered-Answer-Sheet-Grading-and-Question-Extraction-Using-OCR-and-OMR/blob/main/Images_Smaples/Test1_output.png" alt="Alt Text" width="600"/>
+</p>
 
 **`Test Case 2:`**  
 ❌ The system detected a few answers, resulting in a score of 20%.  
- **Output:** ![Test Case 2 Output](output_image_2.jpg)
+ **Output:** <p align="center">
+  <img src="https://github.com/Salma-Talat-Shaheen/AI-Powered-Answer-Sheet-Grading-and-Question-Extraction-Using-OCR-and-OMR/blob/main/Images_Smaples/Test2_output.png" alt="Alt Text" width="600"/>
+</p>
 
 **`Test Case 3:`**  
 ✅ Most answers were detected correctly, leading to a score of 60%.  
-**Output:** ![Test Case 3 Output](output_image_3.jpg)
+**Output:** <p align="center">
+  <img src="https://github.com/Salma-Talat-Shaheen/AI-Powered-Answer-Sheet-Grading-and-Question-Extraction-Using-OCR-and-OMR/blob/main/Images_Smaples/Test3_output.png" alt="Alt Text" width="600"/>
+</p>
+
 
 ---
 
