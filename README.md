@@ -5,12 +5,12 @@
 
 
 ##  `► Table of Contents ◄`
-1. Introduction :
-2. Methodology :
-3. Results :
-4. Comments :
-5. Conclusion :
-6. References :
+1. **Introduction**
+2. **Methodology**
+3. **Results**
+4. **Comments**
+5. **Conclusion** 
+6. **References**
 
 ---
 
