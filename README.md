@@ -1,4 +1,4 @@
-# Questionnaire Analysis System
+# Questionnaire Analysis System - OMR
 <p align="center">
   <img src="https://github.com/Salma-Talat-Shaheen/AI-Powered-Answer-Sheet-Grading-and-Question-Extraction-Using-OCR-and-OMR/blob/main/Images_Smaples/InputToOutput.png?raw=true" alt="Alt Text" width="600"/>
 </p>
